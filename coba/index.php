@@ -22,7 +22,11 @@ $rows = [];
 $test = mysqli_fetch_array($query);
 var_dump($test['NAMA_SISWA']);
 
+
+
 ?>
+
+
     
 </body>
 </html>
