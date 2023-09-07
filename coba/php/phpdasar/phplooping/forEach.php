@@ -7,4 +7,13 @@ foreach($namasiswa as $nama){
     echo ' kelas: '.$namakelas[0].'<br>';
 }
 
+echo '<hr>';
+
+$kendaraan = array('merk' => 'toyota','tipe' => 'supra','tahun' => '2006' );
+
+foreach($kendaraan as $mobil => $nilai){
+    echo $mobil.':  '.$nilai.'<br>';
+}
+
+
 ?>
